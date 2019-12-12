@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1795721D-E762-4028-9799-84824D6991AF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>repeater_2</RootNamespace>
+    <AssemblyName>repeater_2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap4-offline-docs-master\.idea\bootstrap4.iml" />
+    <Content Include="bootstrap4-offline-docs-master\assets\img\favicons\manifest.json" />
+    <Content Include="bootstrap4-offline-docs-master\README.md" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap4-offline-docs-master\.gitignore" />
+    <Content Include="bootstrap4-offline-docs-master\.idea\encodings.xml" />
+    <Content Include="bootstrap4-offline-docs-master\.idea\inspectionProfiles\Project_Default.xml" />
+    <Content Include="bootstrap4-offline-docs-master\.idea\modules.xml" />
+    <Content Include="bootstrap4-offline-docs-master\about\brand\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\about\license\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\about\overview\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\about\translations\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\assets\brand\bootstrap-social-logo.png" />
+    <Content Include="bootstrap4-offline-docs-master\assets\brand\bootstrap-social.png" />
+    <Content Include="bootstrap4-offline-docs-master\assets\css\docs.min.css" />
+    <Content Include="bootstrap4-offline-docs-master\assets\img\bootstrap-stack.png" />
+    <Content Include="bootstrap4-offline-docs-master\assets\img\favicons\apple-touch-icon.png" />
+    <Content Include="bootstrap4-offline-docs-master\assets\img\favicons\browserconfig.xml" />
+    <Content Include="bootstrap4-offline-docs-master\assets\img\favicons\favicon-16x16.png" />
+    <Content Include="bootstrap4-offline-docs-master\assets\img\favicons\favicon-32x32.png" />
+    <Content Include="bootstrap4-offline-docs-master\assets\img\favicons\safari-pinned-tab.svg" />
+    <Content Include="bootstrap4-offline-docs-master\assets\img\fb.png" />
+    <Content Include="bootstrap4-offline-docs-master\assets\img\github.gif" />
+    <Content Include="bootstrap4-offline-docs-master\assets\img\twitter.png" />
+    <Content Include="bootstrap4-offline-docs-master\assets\js\docs.min.js" />
+    <Content Include="bootstrap4-offline-docs-master\assets\js\vendor\holder.min.js" />
+    <Content Include="bootstrap4-offline-docs-master\assets\js\vendor\jquery-slim.min.js" />
+    <Content Include="bootstrap4-offline-docs-master\assets\js\vendor\popper.min.js" />
+    <Content Include="bootstrap4-offline-docs-master\components\alerts\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\badge\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\breadcrumb\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\button-group\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\buttons\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\card\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\carousel\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\collapse\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\dropdowns\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\forms\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\input-group\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\jumbotron\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\list-group\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\modal\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\navbar\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\navs\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\pagination\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\popovers\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\progress\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\scrollspy\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\components\tooltips\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\content\code\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\content\figures\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\content\images\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\content\reboot\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\content\tables\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\content\typography\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\dist\css\bootstrap.min.css" />
+    <Content Include="bootstrap4-offline-docs-master\dist\js\bootstrap.min.js" />
+    <Content Include="bootstrap4-offline-docs-master\examples\album\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\blog\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\carousel\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\checkout\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\cover\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\dashboard\dashboard.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\dashboard\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\floating-labels\floating-labels.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\floating-labels\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\grid\grid.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\grid\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\jumbotron\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\jumbotron\jumbotron.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\navbar-bottom\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\navbar-fixed\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\navbar-fixed\navbar-top-fixed.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\navbar-static\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\navbar-static\navbar-top.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\navbars\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\navbars\navbar.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\offcanvas\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\offcanvas\offcanvas.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\offcanvas\offcanvas.js" />
+    <Content Include="bootstrap4-offline-docs-master\examples\pricing\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\product\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\album.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\blog.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\carousel.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\checkout.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\cover.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\dashboard.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\floating-labels.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\grid.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\jumbotron.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\navbar-bottom.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\navbar-fixed.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\navbar-static.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\navbars.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\offcanvas.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\pricing.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\product.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\sign-in.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\starter-template.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\sticky-footer-navbar.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\screenshots\sticky-footer.png" />
+    <Content Include="bootstrap4-offline-docs-master\examples\sign-in\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\sign-in\signin.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\starter-template\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\starter-template\starter-template.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\sticky-footer-navbar\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\sticky-footer-navbar\sticky-footer-navbar.css" />
+    <Content Include="bootstrap4-offline-docs-master\examples\sticky-footer\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\examples\sticky-footer\sticky-footer.css" />
+    <Content Include="bootstrap4-offline-docs-master\extend\approach\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\extend\icons\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\getting-started\accessibility\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\getting-started\browsers-devices\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\getting-started\build-tools\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\getting-started\contents\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\getting-started\download\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\getting-started\introduction\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\getting-started\javascript\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\getting-started\theming\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\getting-started\webpack\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\layout\grid\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\layout\media-object\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\layout\overview\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\layout\utilities-for-layout\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\migration\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\borders\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\clearfix\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\close-icon\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\colors\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\display\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\embed\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\flex\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\float\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\image-replacement\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\position\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\screenreaders\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\shadows\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\sizing\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\spacing\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\text\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\vertical-align\index.html" />
+    <Content Include="bootstrap4-offline-docs-master\utilities\visibility\index.html" />
+    <Content Include="img\hinh %281%29.jpg" />
+    <Content Include="img\hinh %2810%29.jpg" />
+    <Content Include="img\hinh %2811%29.jpg" />
+    <Content Include="img\hinh %282%29.jpg" />
+    <Content Include="img\hinh %283%29.jpg" />
+    <Content Include="img\hinh %284%29.jpg" />
+    <Content Include="img\hinh %285%29.jpg" />
+    <Content Include="img\hinh %286%29.jpg" />
+    <Content Include="img\hinh %287%29.jpg" />
+    <Content Include="img\hinh %288%29.jpg" />
+    <Content Include="img\hinh %289%29.jpg" />
+    <Content Include="kiemtra.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="kiemtra.aspx.cs">
+      <DependentUpon>kiemtra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kiemtra.aspx.designer.cs">
+      <DependentUpon>kiemtra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50155</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50155/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

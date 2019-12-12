@@ -1,0 +1,6 @@
+E:\Lập trình ASPNet\repeater_2\repeater_2\bin\repeater_2.dll.config
+E:\Lập trình ASPNet\repeater_2\repeater_2\bin\repeater_2.dll
+E:\Lập trình ASPNet\repeater_2\repeater_2\bin\repeater_2.pdb
+E:\Lập trình ASPNet\repeater_2\repeater_2\obj\Debug\repeater_2.csprojResolveAssemblyReference.cache
+E:\Lập trình ASPNet\repeater_2\repeater_2\obj\Debug\repeater_2.dll
+E:\Lập trình ASPNet\repeater_2\repeater_2\obj\Debug\repeater_2.pdb
